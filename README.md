@@ -19,27 +19,92 @@ To write a program to perform linear search and binary search using python progr
 ## Program:
 i)	#Use a linear search method to match the item in a list.
 ```
+#Developed By: ROSHINI S
+#Register Number : 212223240142
 
+def linearSearch(array,n,k):
+ for i in range(0,n):
+     if(array[i]==k):
+        return i
+ 1/5
+ return -1
+    
+array = eval(input())
+k=eval(input())
+n=len(array)
+array.sort()
+res=linearSearch(array,n,k)
+if(res==-1):
+    print(array)
+    print("Element not found")
+else:
+    print(array)
+    print("Element found at index: ",  res)
 
 
 ```
+
 ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
-
-
-
+def binarySearch(array, k, low, high):
+    while low<=high:
+        mid=low+(high)
+        if array[mid]==k:
+            return mid
+        elif array[mid]<k:
+            low=mid+1
+        else:
+            high=mid-1
+    return -1
+array = eval(input())
+k=eval(input())
+n=len(array)
+array.sort()
+res=binarySearch(array,k,0,len(array)-1)
+if(res==-1):
+    print(array)
+    print("Element not found")
+else:
+    print(array)
+    print("Element found at index: ",  res)
 
 
 ```
 iii)	# Find the element in a list using Binary Search (recursive Method).
 ```
+#Developed By : ROSHINI S
+#Register Number : 212223240142
 
-
-
-
+def BinarySearch(arr, k, low, high):
+    if high>=low:
+       mid=low+(high-low)//2
+       if array[mid]==k:
+           return mid
+       elif array[mid]>k:
+            return BinarySearch(array,k,low,mid-1)
+       else:
+            return BinarySearch(array,k,mid+1,high)
+    else:
+        return -1
+array = eval(input())
+k=eval(input())
+array.sort()
+res=BinarySearch(array,k,0,len(array)-1)
+if(res==-1):
+    print(array)
+    print("Element not found")
+else:
+    print(array)
+    print("Element found at index: ",  res)
 
 ```
 ## Sample Input and Output
+![image](https://github.com/MANIKUMARDK/Search-Algorithms/assets/147215581/a9377217-5b7c-4e19-a2de-f458d35fd651)
+![Screenshot 2024-04-07 221018](https://github.com/MANIKUMARDK/Search-Algorithms/assets/147215581/edc997b5-decd-4409-9109-8635cfff60df)
+![Screenshot 2024-04-07 221122](https://github.com/MANIKUMARDK/Search-Algorithms/assets/147215581/1b8d1818-4f75-4704-9648-5446ecac5eb0)
+
+
+
 
 
 
