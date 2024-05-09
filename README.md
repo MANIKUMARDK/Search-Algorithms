@@ -99,9 +99,10 @@ else:
 
 ```
 ## Sample Input and Output
-![image](https://github.com/MANIKUMARDK/Search-Algorithms/assets/147215581/a9377217-5b7c-4e19-a2de-f458d35fd651)
-![Screenshot 2024-04-07 221018](https://github.com/MANIKUMARDK/Search-Algorithms/assets/147215581/edc997b5-decd-4409-9109-8635cfff60df)
-![Screenshot 2024-04-07 221122](https://github.com/MANIKUMARDK/Search-Algorithms/assets/147215581/1b8d1818-4f75-4704-9648-5446ecac5eb0)
+![image](https://github.com/MANIKUMARDK/Search-Algorithms/assets/147215581/8e0c5b41-302b-4cde-9dc3-6ca4463c9e1d)
+![image](https://github.com/MANIKUMARDK/Search-Algorithms/assets/147215581/0669e71a-27a0-43d5-8757-b222f4cd83c2)
+![image](https://github.com/MANIKUMARDK/Search-Algorithms/assets/147215581/98f0e844-400f-46e7-98e3-6c1953b08bec)
+
 
 
 
